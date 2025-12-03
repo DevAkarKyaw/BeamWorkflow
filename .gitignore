@@ -1,0 +1,25 @@
+# dotnet
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+**/efbundle
+
+# node
+**/node_modules/
+**/dist/
+
+# IDE
+.vs/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# secrets (adjust for your project)
+backend/BeamWorkflow/appsettings.Development.json
+backend/BeamWorkflow/appsettings.Local.json
